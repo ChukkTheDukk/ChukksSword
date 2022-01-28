@@ -1,6 +1,6 @@
-package net.chukkthedukk.chukkssword.mixin;
+package net.chukkthedukk.chukksmod.mixin;
 
-import net.chukkthedukk.chukkssword.ChukksSword;
+import net.chukkthedukk.chukksmod.ChukksMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ChukksSword.LOGGER.info("This line is printed by an example mod mixin!");
+		ChukksMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

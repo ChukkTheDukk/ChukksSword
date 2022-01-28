@@ -1,6 +1,6 @@
-package net.chukkthedukk.chukkssword.item;
+package net.chukkthedukk.chukksmod.item;
 
-import net.chukkthedukk.chukkssword.ChukksSword;
+import net.chukkthedukk.chukksmod.ChukksMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,11 +14,11 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(ChukksSword.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(ChukksMod.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
-        ChukksSword.LOGGER.info("Registering Mod Items for " + ChukksSword.MOD_ID);
+        ChukksMod.LOGGER.info("Registering Mod Items for " + ChukksMod.MOD_ID);
     }
 
 }
