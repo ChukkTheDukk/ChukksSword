@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "#": {
+      "item": "chukksmod:ender_dragon_sword_hilt"
+    },
+    "X": {
+      "item": "chukksmod:ender_dragon_sword_blade"
+    },
+    "Y": {
+      "item": "chukksmod:ender_dragon_sword_handle"
+    }
+  },
+  "result": {
+    "item": "chukksmod:ender_dragon_sword",
+    "count": 1
+  }
+}

@@ -9,9 +9,15 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item FIRE_DRAGON_SWORD =registerItem( "fire_dragon_sword",
-        new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
-
-
+        new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item ENDER_DRAGON_SWORD =registerItem( "ender_dragon_sword",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item ENDER_DRAGON_SWORD_HANDLE =registerItem( "ender_dragon_sword_handle",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item ENDER_DRAGON_SWORD_HILT =registerItem( "ender_dragon_sword_hilt",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item ENDER_DRAGON_SWORD_BLADE =registerItem( "ender_dragon_sword_blade",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(ChukksMod.MOD_ID, name), item);
