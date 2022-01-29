@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "chukkssword",
+  "id": "chukksmod",
   "version": "${version}",
 
-  "name": "Chukk's Sword",
+  "name": "Chukk's Mod",
   "description": "has a sword",
   "authors": [
     "ChukkTheDukk"
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.chukkthedukk.chukkssword.ChukksSword"
+      "net.chukkthedukk.chukksmod.ChukksMod"
     ]
   },
   "mixins": [
-    "chukkssword.mixins.json"
+    "chukksmod.mixins.json"
   ],
 
   "depends": {
