@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  Z",
+    "#X#",
+    "Y#Y"
+  ],
+  "key": {
+    "#": {
+      "item": "chukksmod:iridium_ingot"
+    },
+    "X": {
+      "item": "chukksmod:ender_shard"
+    },
+    "Y": {
+      "item": "chukksmod:dragon_horn"
+    },
+    "Z": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "result": {
+    "item": "chukksmod:ender_dragon_sword_hilt",
+    "count": 1
+  }
+}

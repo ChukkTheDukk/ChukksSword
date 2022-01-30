@@ -7,5 +7,13 @@
   "item.chukksmod.pezzottaite": "Pezzottaite",
   "item.chukksmod.iridium_ingot": "Iridium Ingot",
   "item.chukksmod.iridium_nugget": "Iridium Nugget",
-  "itemGroup.chukksmod.chukksmod": "Chukk's Mod"
+  "item.chukksmod.obsidian_rod": "Obsidian Rod",
+  "item.chukksmod.dragon_horn": "Dragon Horn",
+  "item.chukksmod.ender_shard": "Ender Shard",
+
+  "block.chukksmod.iridium_ore": "Iridium Ore",
+  "block.chukksmod.iridium_block": "Block of Iridium",
+
+  "itemGroup.chukksmod.chukksmod_items": "Chukk's Items",
+  "itemGroup.chukksmod.chukksmod_blocks": "Chukk's Blocks"
 }

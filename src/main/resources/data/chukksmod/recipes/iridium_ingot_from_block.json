@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chukksmod:iridium_block"
+    }
+  ],
+  "result": {
+    "item": "chukksmod:iridium_ingot",
+    "count": 9
+  }
+}

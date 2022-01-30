@@ -1,5 +1,6 @@
 package net.chukkthedukk.chukksmod;
 
+import net.chukkthedukk.chukksmod.block.ModBlocks;
 import net.chukkthedukk.chukksmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class ChukksMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
