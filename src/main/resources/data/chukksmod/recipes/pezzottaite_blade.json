@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "chukksmod:pezzottaite"
+    }
+  },
+  "result": {
+    "item": "chukksmod:pezzottaite_blade",
+    "count": 1
+  }
+}

@@ -15,11 +15,15 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
     public static final Item ENDER_DRAGON_SWORD_HILT =registerItem( "ender_dragon_sword_hilt",
             new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
-    public static final Item ENDER_DRAGON_SWORD_BLADE =registerItem( "ender_dragon_sword_blade",
+    public static final Item PEZZOTTAITE_BLADE =registerItem( "pezzottaite_blade",
             new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
     public static final Item ENDER_DRAGON_SWORD =registerItem( "ender_dragon_sword",
             new SwordItem(EnderToolMaterial.INSTANCE, 6, -2.4f, new Item.Settings().group(ModItemGroup.CHUKKSMOD)));
-    public static final Item PEZZOTTAITE =registerItem( "pezzotaite",
+    public static final Item PEZZOTTAITE =registerItem( "pezzottaite",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item IRIDIUM_INGOT =registerItem( "iridium_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
+    public static final Item IRIDIUM_NUGGET =registerItem( "iridium_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.CHUKKSMOD)));
 
     private static Item registerItem(String name, Item item) {
