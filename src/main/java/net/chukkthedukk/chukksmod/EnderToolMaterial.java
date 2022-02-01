@@ -8,7 +8,7 @@ implements ToolMaterial {
         public static final EnderToolMaterial INSTANCE = new EnderToolMaterial();
     @Override
     public int getDurability() {
-        return 1000;
+        return 51;
     }
 
     @Override

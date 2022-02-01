@@ -13,3 +13,4 @@ public class ModItemGroup {
     public static final ItemGroup CHUKKSMOD_BLOCKS = FabricItemGroupBuilder.build(new Identifier(ChukksMod.MOD_ID, "chukksmod_blocks"),
             () -> new ItemStack(ModBlocks.IRIDIUM_BLOCK));
 }
+
