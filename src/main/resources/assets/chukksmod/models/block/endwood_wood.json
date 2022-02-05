@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "chukksmod:block/endwood_log",
+    "side": "chukksmod:block/endwood_log"
+  }
+}

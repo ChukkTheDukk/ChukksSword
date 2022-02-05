@@ -13,6 +13,11 @@
 
   "block.chukksmod.iridium_ore": "Iridium Ore",
   "block.chukksmod.iridium_block": "Block of Iridium",
+  "block.chukksmod.endwood_log": "Endwood Log",
+  "block.chukksmod.endwood_wood": "Endwood Wood",
+  "block.chukksmod.endwood_planks": "Endwood Planks",
+  "block.chukksmod.stripped_endwood_log": "Stripped Endwood Log",
+  "block.chukksmod.stripped_endwood_wood": "Stripped Endwood Wood",
 
   "itemGroup.chukksmod.chukksmod_items": "Chukk's Items",
   "itemGroup.chukksmod.chukksmod_blocks": "Chukk's Blocks"
