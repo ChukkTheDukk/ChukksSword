@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "chukksmod:block/endwood_sapling"
+  }
+}

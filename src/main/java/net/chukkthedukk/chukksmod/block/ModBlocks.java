@@ -1,11 +1,11 @@
 package net.chukkthedukk.chukksmod.block;
 
 import net.chukkthedukk.chukksmod.ChukksMod;
+import net.chukkthedukk.chukksmod.block.custom.ModSaplingBlock;
 import net.chukkthedukk.chukksmod.item.ModItemGroup;
+import net.chukkthedukk.chukksmod.world.features.tree.EndwoodSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.mixin.object.builder.AbstractBlockSettingsAccessor;
-import net.fabricmc.fabric.mixin.object.builder.AbstractBlockSettingsMixin;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -30,6 +30,12 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroup.CHUKKSMOD_BLOCKS);
     public static final Block ENDWOOD_PLANKS = registerBlock( "endwood_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.CHUKKSMOD_BLOCKS);
+    public static final Block ENDWOOD_LEAVES = registerBlock( "endwood_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.CHUKKSMOD_BLOCKS);
+    public static final Block ENDWOOD_SAPLING = registerBlock( "endwood_sapling",
+            new ModSaplingBlock(new EndwoodSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.CHUKKSMOD_BLOCKS);
+
 
     private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.BLOCK, new Identifier(ChukksMod.MOD_ID, name), block);
