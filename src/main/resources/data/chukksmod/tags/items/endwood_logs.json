@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chukksmod:endwood_log",
+    "chukksmod:endwood_wood",
+    "chukksmod:stripped_endwood_log",
+    "chukksmod:stripped_endwood_wood"
+  ]
+}

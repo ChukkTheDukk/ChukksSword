@@ -7,12 +7,15 @@ import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.size.FeatureSize;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.FoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.treedecorator.TreeDecorator;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
+import net.minecraft.world.gen.trunk.TrunkPlacer;
 
-import java.io.ObjectInputFilter;
 import java.util.List;
 
 public class ModConfiguredFeatures {
@@ -34,11 +37,6 @@ public class ModConfiguredFeatures {
         return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(ChukksMod.MOD_ID, name),
                 configuredFeature);
     }
-
-    //private static RandomPatchFeatureConfig createRandomPatchFeatureConfig(BlockStateProvider block, int tries) {
-    //    return ConfiguredFeatures.createRandomPatchFeatureConfig(tries,
-    //            Feature.SIMPLE_BLOCK.configure((new SimpleBlockFeatureConfig(block)).withInAirFilter()));
-    //}
 
     public static void registerConfiguredFeatures() {
         System.out.println("Registering ModConfiguredFeatures for " + ChukksMod.MOD_ID);
