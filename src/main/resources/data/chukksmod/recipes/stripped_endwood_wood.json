@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "chukksmod:stripped_endwood_log"
+    }
+  },
+  "result": {
+    "item": "chukksmod:stripped_endwood_wood",
+    "count": 3
+  }
+}

@@ -5,6 +5,12 @@
     "chukksmod:endwood_wood",
     "chukksmod:stripped_endwood_log",
     "chukksmod:stripped_endwood_wood",
-    "chukksmod:endwood_planks"
+    "chukksmod:endwood_planks",
+    "chukksmod:endwood_button",
+    "chukksmod:endwood_pressure_plate",
+    "chukksmod:endwood_fence",
+    "chukksmod:endwood_fence_gate",
+    "chukksmod:endwood_slab",
+    "chukksmod:endwood_stairs"
   ]
 }

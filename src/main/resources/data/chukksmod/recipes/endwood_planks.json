@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "chukksmod:endwood_logs"
+    }
+  ],
+  "result": {
+    "item": "chukksmod:endwood_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chukksmod:block/endwood_slab"
+    },
+    "type=double": {
+      "model": "chukksmod:block/endwood_planks"
+    },
+    "type=top": {
+      "model": "chukksmod:block/endwood_slab_top"
+    }
+  }
+}

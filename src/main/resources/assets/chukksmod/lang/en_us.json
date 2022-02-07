@@ -20,6 +20,13 @@
   "block.chukksmod.stripped_endwood_wood": "Stripped Endwood Wood",
   "block.chukksmod.endwood_leaves": "Endwood Leaves",
   "block.chukksmod.endwood_sapling": "Endwood Sapling",
+  "block.chukksmod.endwood_button": "Endwood Button",
+  "block.chukksmod.endwood_pressure_plate": "Endwood Pressure Plate",
+  "block.chukksmod.endwood_fence": "Endwood Fence",
+  "block.chukksmod.endwood_fence_gate": "Endwood Fence Gate",
+  "block.chukksmod.endwood_slab": "Endwood Slab",
+  "block.chukksmod.endwood_stairs": "Endwood Stairs",
+  "block.chukksmod.endwood_sign": "Endwood Sign",
 
   "itemGroup.chukksmod.chukksmod_items": "Chukk's Items",
   "itemGroup.chukksmod.chukksmod_blocks": "Chukk's Blocks"
